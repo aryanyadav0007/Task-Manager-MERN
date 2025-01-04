@@ -37,6 +37,17 @@ A Task Manager application built using the MERN (MongoDB, Express, React, Node.j
 
 ---
 
+## Code Structure
+### Backend
+
+backend/ ├── models/ # User & Task schemas ├── controllers/ # Auth & Task logic ├── routes/ # API endpoints ├── middlewares/ # Authentication middleware ├── app.js # Main app setup
+
+### Frontend
+
+frontend/ ├── src/ │ ├── api/ # API functions for auth & tasks │ ├── components/ # Reusable UI components │ ├── context/ # Global state (AuthContext) │ ├── pages/ # Login, Register, Tasks │ ├── App.js # Main app component │ ├── main.jsx # Entry point
+
+---
+
 ## Prerequisites  
 
 Ensure the following are installed on your system:  
