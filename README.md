@@ -53,4 +53,49 @@ Ensure the following are installed on your system:
 
 ```bash  
 git clone https://github.com/yourusername/mern-task-manager.git  
-cd mern-task-manager  
+cd mern-task-manager
+
+```
+
+### 2. Backend Setup
+
+```bash
+cd backend
+npm install
+```
+### 2.1. Backend .env file setup
+
+```bash
+PORT_URI=5000
+MONGO_URI=your_mongodb_connection_string  
+JWT_SECRET=your_jwt_secret  
+JWT_REFRESH_SECRET=your_refresh_jwt_secret  
+
+```
+### 2.2. Start Backend
+
+```bash
+npm start  
+
+```
+
+### 3. Frontend Setup
+
+```bash
+cd ../frontend  
+npm install  
+
+```
+
+### 3.1. Change API_URL in api.js file
+
+```bash
+http://localhost:5000/api
+
+```
+
+### 3.2. Start Frontend
+
+```bash
+npm run dev  
+
