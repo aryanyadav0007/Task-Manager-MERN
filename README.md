@@ -5,6 +5,12 @@ A Task Manager application built using the MERN (MongoDB, Express, React, Node.j
 
 ---
 
+## Live Application  
+
+- **Link 🔗**: [Task Manager](https://task-manager-mern-bice.vercel.app/)  
+
+---
+
 ## Features  
 
 - **User Authentication**: Secure login and registration using JWT (Access & Refresh Tokens)  
@@ -12,13 +18,6 @@ A Task Manager application built using the MERN (MongoDB, Express, React, Node.j
 - **Persistent Login**: Tokens ensure user remains logged in across page refreshes  
 - **Secure Backend**: Follows MVC architecture with proper route protection  
 - **Responsive Frontend**: Built with React for a seamless user experience  
-
----
-
-## Live Application  
-
-- **Frontend**: [Task Manager](https://task-manager-mern-bice.vercel.app/)  
-- **Backend**: [API Endpoints](https://mern-task-manager-backend.onrender.com/)  
 
 ---
 
