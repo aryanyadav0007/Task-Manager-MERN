@@ -1,12 +1,13 @@
 # MERN Task Manager with JWT Authentication  
 
-A Task Manager application built using the MERN (MongoDB, Express, React, Node.js) stack. This app includes authentication using JWT with access and refresh tokens, and tasks are managed with full CRUD functionality.
+A Task Manager application built using the MERN (MongoDB, Express, React, Node.js) stack. This app uses JWT authentication with access and refresh tokens, and tasks are managed with full CRUD functionality.
 
 ---
 
 ## Live Application  
 
-- **Link 🔗**: [Task Manager](https://task-manager-mern-bice.vercel.app/)  
+- **Link 🔗**: [Task Manager](https://task-manager-mern-bice.vercel.app/)
+- **Demo Video 🔗**: [demo-video-task-manager]()
 
 ---
 
@@ -14,7 +15,7 @@ A Task Manager application built using the MERN (MongoDB, Express, React, Node.j
 
 - **User Authentication**: Secure login and registration using JWT (Access & Refresh Tokens)  
 - **Task Management**: Create, read, update, and delete tasks  
-- **Persistent Login**: Tokens ensure user remains logged in across page refreshes  
+- **Persistent Login**: Tokens ensure the user remains logged in across page refreshes  
 - **Secure Backend**: Follows MVC architecture with proper route protection  
 - **Responsive Frontend**: Built with React for a seamless user experience  
 
