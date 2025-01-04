@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000/api" });
+const API = axios.create({ baseURL: "https://task-manager-mern-tryd.onrender.com/api" });
 
 // Intercept requests to add token
 API.interceptors.request.use((req) => {
