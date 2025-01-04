@@ -1,4 +1,3 @@
-﻿# Task-Manager-MERN
 # MERN Task Manager with JWT Authentication  
 
 A Task Manager application built using the MERN (MongoDB, Express, React, Node.js) stack. This app includes authentication using JWT with access and refresh tokens, and tasks are managed with full CRUD functionality.
